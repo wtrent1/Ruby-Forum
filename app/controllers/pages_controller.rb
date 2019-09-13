@@ -5,6 +5,4 @@ class PagesController < ApplicationController
   end
   def projects
   end
-  def academic
-  end
 end
