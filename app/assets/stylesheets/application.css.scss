@@ -1,0 +1,70 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
+// Typography styles
+h1, h2, h3, p {
+  font-family: 'Roboto', sans-serif;   
+}
+
+.body-text {
+  font-size: 15pt;
+}
+
+.navbar {
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+// Colors in navbar
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: #B1B5C4;
+  &:hover {
+    color: #B1B5C4;
+    opacity: 0.75;
+  }
+}
+
+.page-header {
+  text-align: center;
+}
+
+.page-subheading {
+  text-align: center;
+}
+
+.page-body {
+  text-align: center;
+}
+
+.home-body {
+  padding-top: 30px;
+}
+
+.footer {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 11pt;
+}
+
+.footer-icon-aright {
+  text-align: right;
+}
+
+.footer-icon-aleft {
+  text-align: left;
+}
+
+.fa-linkedin {
+  color: #4875B4;
+}
+
+.fa-github {
+  color: black;
+}
+
+.contact-form {
+  text-align: center;
+}
