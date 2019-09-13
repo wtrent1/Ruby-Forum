@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
   def home
   end
-  def bio
+  def questions
   end
-  def projects
+  def careers
   end
 end

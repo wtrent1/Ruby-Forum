@@ -717,7 +717,7 @@ Completed 500 Internal Server Error in 399ms (ActiveRecord: 0.0ms)
 ActionView::Template::Error (undefined local variable or method `contact' for #<#<Class:0x00007fc555bbc930>:0x00007fc555bb0b80>
 Did you mean?  concat):
     29:           <li><%= link_to "Bio", bio_path %></li>
-    30:           <li><%= link_to "Projects", projects_path %></li>
+    30:           <li><%= link_to "careers", careers_path %></li>
     31:           <li><%= link_to "Academic", academic_path %></li>
     32:           <li><%= link_to "Contact Me", contact-me_path %></li>
     33:         </ul>
@@ -940,7 +940,7 @@ Completed 500 Internal Server Error in 398ms (ActiveRecord: 0.0ms)
 ActionView::Template::Error (undefined local variable or method `contact' for #<#<Class:0x00007fc5558c8af8>:0x00007fc5558bcbe0>
 Did you mean?  concat):
     29:           <li><%= link_to "Bio", bio_path %></li>
-    30:           <li><%= link_to "Projects", projects_path %></li>
+    30:           <li><%= link_to "careers", careers_path %></li>
     31:           <li><%= link_to "Academic", academic_path %></li>
     32:           <li><%= link_to "Contact Me", contact-me_path %></li>
     33:         </ul>
@@ -1300,7 +1300,7 @@ Completed 500 Internal Server Error in 352ms (ActiveRecord: 0.0ms)
   
 ActionView::Template::Error (undefined local variable or method `new_contact_path' for #<#<Class:0x00007fc5551719f8>:0x00007fc5561b3690>):
     29:           <li><%= link_to "Bio", bio_path %></li>
-    30:           <li><%= link_to "Projects", projects_path %></li>
+    30:           <li><%= link_to "careers", careers_path %></li>
     31:           <li><%= link_to "Academic", academic_path %></li>
     32:           <li><%= link_to "Contact Me", new_contact_path %></li>
     33:         </ul>
@@ -1470,11 +1470,11 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-16 00:02:23 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-16 00:02:23 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
 
 
@@ -3473,11 +3473,11 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 63ms (Views: 55.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-16 01:49:02 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-16 01:49:02 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (2.0ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (2.0ms)
 Completed 200 OK in 225ms (Views: 220.8ms | ActiveRecord: 0.0ms)
 
 
@@ -3643,11 +3643,11 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 97ms (Views: 91.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-16 22:57:27 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-16 22:57:27 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (3.3ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (3.3ms)
 Completed 200 OK in 83ms (Views: 74.5ms | ActiveRecord: 0.0ms)
 
 
@@ -3683,11 +3683,11 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 78ms (Views: 76.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-16 23:28:10 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-16 23:28:10 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
 
 
@@ -3699,11 +3699,11 @@ Processing by PagesController#academic as HTML
 Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-16 23:28:16 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-16 23:28:16 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.6ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.6ms)
 Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms)
 
 
@@ -3779,11 +3779,11 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-16 23:34:28 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-16 23:34:28 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.6ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.6ms)
 Completed 200 OK in 63ms (Views: 61.9ms | ActiveRecord: 0.0ms)
 
 
@@ -3964,19 +3964,19 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-16 23:52:54 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-16 23:52:54 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.5ms)
 Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-17 00:01:25 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-17 00:01:25 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
 
 
@@ -4012,11 +4012,11 @@ puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
 puma (3.12.0) lib/puma/server.rb:472:in `process_client'
 puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
-Started GET "/projects" for 99.54.141.203 at 2018-10-17 00:01:33 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-17 00:01:33 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.4ms)
 Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
 
 
@@ -4052,11 +4052,11 @@ puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
 puma (3.12.0) lib/puma/server.rb:472:in `process_client'
 puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
-Started GET "/projects" for 99.54.141.203 at 2018-10-17 00:01:36 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-17 00:01:36 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.3ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.3ms)
 Completed 200 OK in 82ms (Views: 79.3ms | ActiveRecord: 0.0ms)
 
 
@@ -4092,19 +4092,19 @@ puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
 puma (3.12.0) lib/puma/server.rb:472:in `process_client'
 puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
-Started GET "/projects" for 99.54.141.203 at 2018-10-17 00:53:31 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-17 00:53:31 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-17 01:06:06 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-17 01:06:06 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.0ms)
 
 
@@ -4433,11 +4433,11 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 296ms (Views: 292.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-17 01:44:46 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-17 01:44:46 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.2ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.2ms)
 Completed 200 OK in 132ms (Views: 128.1ms | ActiveRecord: 0.0ms)
 
 
@@ -4449,11 +4449,11 @@ Processing by PagesController#academic as HTML
 Completed 200 OK in 243ms (Views: 240.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-17 01:44:50 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-17 01:44:50 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (2.0ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (2.0ms)
 Completed 200 OK in 132ms (Views: 128.9ms | ActiveRecord: 0.0ms)
 
 
@@ -4473,11 +4473,11 @@ Processing by ContactsController#new as HTML
 Completed 200 OK in 268ms (Views: 265.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-17 01:44:53 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-17 01:44:53 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 207ms (Views: 204.7ms | ActiveRecord: 0.0ms)
 
 
@@ -4918,11 +4918,11 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 78ms (Views: 75.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-18 00:00:02 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-18 00:00:02 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 89ms (Views: 86.3ms | ActiveRecord: 0.0ms)
 
 
@@ -4934,11 +4934,11 @@ Processing by PagesController#academic as HTML
 Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-18 00:00:06 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-18 00:00:06 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
 
 
@@ -4950,11 +4950,11 @@ Processing by PagesController#academic as HTML
 Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-18 00:00:08 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-18 00:00:08 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
 
 
@@ -4974,11 +4974,11 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-18 01:08:22 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-18 01:08:22 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.8ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
 
 
@@ -5490,11 +5490,11 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 104ms (Views: 99.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-18 21:55:33 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-18 21:55:33 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 64ms (Views: 61.7ms | ActiveRecord: 0.0ms)
 
 
@@ -5578,11 +5578,11 @@ Processing by PagesController#academic as HTML
 Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-18 23:58:51 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-18 23:58:51 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
 
 
@@ -5968,11 +5968,11 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 449ms (Views: 441.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-19 01:05:52 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-19 01:05:52 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.0ms)
 
 
@@ -6000,11 +6000,11 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-19 01:12:59 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-19 01:12:59 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.0ms)
 
 
@@ -6024,11 +6024,11 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-19 01:13:02 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-19 01:13:02 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
 
 
@@ -6072,11 +6072,11 @@ Processing by PagesController#academic as HTML
 Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-19 01:13:07 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-19 01:13:07 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
 
 
@@ -7902,11 +7902,11 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-19 02:02:34 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-19 02:02:34 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.0ms)
 
 
@@ -8006,11 +8006,11 @@ Processing by PagesController#academic as HTML
 Completed 200 OK in 171ms (Views: 168.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-19 02:07:15 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-19 02:07:15 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 65ms (Views: 63.6ms | ActiveRecord: 0.0ms)
 
 
@@ -8068,11 +8068,11 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 157ms (Views: 155.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-19 02:07:38 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-19 02:07:38 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 88ms (Views: 85.2ms | ActiveRecord: 0.0ms)
 
 
@@ -8095,19 +8095,19 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 94ms (Views: 90.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-23 02:00:41 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-23 02:00:41 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-23 02:00:44 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-23 02:00:44 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
 
 
@@ -8259,11 +8259,11 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 3175ms (Views: 3167.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-24 00:16:08 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-24 00:16:08 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 43ms (Views: 40.6ms | ActiveRecord: 0.0ms)
 
 
@@ -8299,11 +8299,11 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 169ms (Views: 166.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-24 00:26:11 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-24 00:26:11 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
 
 
@@ -8630,11 +8630,11 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 21:46:36 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 21:46:36 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 35ms (Views: 32.2ms | ActiveRecord: 0.0ms)
 
 
@@ -8705,19 +8705,19 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 40ms (Views: 37.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 21:57:06 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 21:57:06 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 21:57:14 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 21:57:14 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 0.0ms)
 
 
@@ -8889,19 +8889,19 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 54ms (Views: 52.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:22:36 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:22:36 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 56ms (Views: 54.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:22:50 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:22:50 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 77ms (Views: 75.3ms | ActiveRecord: 0.0ms)
 
 
@@ -8937,123 +8937,123 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:27:41 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:27:41 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:29:43 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:29:43 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:30:30 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:30:30 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:32:19 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:32:19 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:32:39 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:32:39 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 43ms (Views: 41.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:33:07 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:33:07 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 2388ms (Views: 2386.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:35:10 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:35:10 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:36:47 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:36:47 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:37:42 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:37:42 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:37:44 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:37:44 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:38:16 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:38:16 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 2830ms (Views: 2822.3ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:39:08 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:39:08 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (14.1ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (14.1ms)
 Completed 200 OK in 83ms (Views: 64.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:41:34 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:41:34 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:41:51 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:41:51 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-28 22:42:05 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-28 22:42:05 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.0ms)
 
 
@@ -9097,11 +9097,11 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 1003ms (Views: 1001.3ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 99.54.141.203 at 2018-10-31 00:14:25 +0000
+Started GET "/careers" for 99.54.141.203 at 2018-10-31 00:14:25 +0000
 Cannot render console from 99.54.141.203! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (23.7ms)
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (23.7ms)
 Completed 200 OK in 484ms (Views: 452.0ms | ActiveRecord: 0.0ms)
 
 
@@ -9426,102 +9426,102 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 659ms (Views: 639.2ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:43:08 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.6ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:43:08 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.6ms)
 Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
 
 
   
-SyntaxError (/Users/wtrent1/Desktop/workspace/walker-site/app/views/pages/projects.html.erb:15: unknown regexp options - www):
+SyntaxError (/Users/wtrent1/Desktop/workspace/walker-site/app/views/pages/careers.html.erb:15: unknown regexp options - www):
   
-app/views/pages/projects.html.erb:15: unknown regexp options - www
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:43:42 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (14.0ms)
+app/views/pages/careers.html.erb:15: unknown regexp options - www
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:43:42 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (14.0ms)
 Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
 
 
   
-SyntaxError (/Users/wtrent1/Desktop/workspace/walker-site/app/views/pages/projects.html.erb:15: unknown regexp options - aftap):
+SyntaxError (/Users/wtrent1/Desktop/workspace/walker-site/app/views/pages/careers.html.erb:15: unknown regexp options - aftap):
   
-app/views/pages/projects.html.erb:15: unknown regexp options - aftap
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:44:37 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.8ms)
+app/views/pages/careers.html.erb:15: unknown regexp options - aftap
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:44:37 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.8ms)
 Completed 200 OK in 96ms (Views: 92.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:44:39 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.0ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:44:39 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 105ms (Views: 101.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:44:45 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.9ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:44:45 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.9ms)
 Completed 200 OK in 124ms (Views: 120.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:46:07 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.1ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:46:07 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.1ms)
 Completed 200 OK in 150ms (Views: 145.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:46:08 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:46:08 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 111ms (Views: 106.2ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:47:01 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.8ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:47:01 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 108ms (Views: 103.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:47:05 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.9ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:47:05 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.9ms)
 Completed 200 OK in 102ms (Views: 96.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:48:12 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:48:12 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 126ms (Views: 122.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:48:28 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.9ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:48:28 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.9ms)
 Completed 200 OK in 118ms (Views: 114.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:48:31 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:48:31 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 113ms (Views: 108.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:48:44 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:48:44 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 101ms (Views: 97.8ms | ActiveRecord: 0.0ms)
 
 
@@ -9532,31 +9532,31 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 240ms (Views: 234.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:49:21 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.8ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:49:21 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 117ms (Views: 111.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:49:44 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:49:44 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 104ms (Views: 99.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:51:13 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:51:13 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 113ms (Views: 110.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:53:06 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:53:06 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 112ms (Views: 107.4ms | ActiveRecord: 0.0ms)
 
 
@@ -9581,10 +9581,10 @@ Processing by PagesController#academic as HTML
 Completed 200 OK in 111ms (Views: 108.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:53:21 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:53:21 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 161ms (Views: 156.5ms | ActiveRecord: 0.0ms)
 
 
@@ -9595,10 +9595,10 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 104ms (Views: 91.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2018-11-09 14:53:24 -0600
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.4ms)
+Started GET "/careers" for 127.0.0.1 at 2018-11-09 14:53:24 -0600
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.4ms)
 Completed 200 OK in 119ms (Views: 114.0ms | ActiveRecord: 0.0ms)
 
 
@@ -9652,10 +9652,10 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 98ms (Views: 94.2ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-08-27 20:58:50 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Started GET "/careers" for 127.0.0.1 at 2019-08-27 20:58:50 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 76ms (Views: 63.8ms | ActiveRecord: 0.0ms)
 
 
@@ -9720,10 +9720,10 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 69ms (Views: 64.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-08-28 21:28:33 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (3.8ms)
+Started GET "/careers" for 127.0.0.1 at 2019-08-28 21:28:33 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (3.8ms)
 Completed 200 OK in 203ms (Views: 195.0ms | ActiveRecord: 0.0ms)
 
 
@@ -9742,10 +9742,10 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 95ms (Views: 91.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:15:22 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:15:22 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 91ms (Views: 84.8ms | ActiveRecord: 0.0ms)
 
 
@@ -9784,10 +9784,10 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 119ms (Views: 113.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:15:32 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.3ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:15:32 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 148ms (Views: 143.3ms | ActiveRecord: 0.0ms)
 
 
@@ -9868,10 +9868,10 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 104ms (Views: 99.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:23:37 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.3ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:23:37 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 133ms (Views: 124.9ms | ActiveRecord: 0.0ms)
 
 
@@ -9889,10 +9889,10 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:24:57 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.5ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:24:57 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 103ms (Views: 96.1ms | ActiveRecord: 0.0ms)
 
 
@@ -9917,10 +9917,10 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 153ms (Views: 145.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:25:03 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.7ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:25:03 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 164ms (Views: 160.6ms | ActiveRecord: 0.0ms)
 
 
@@ -9931,10 +9931,10 @@ Processing by ContactsController#new as HTML
 Completed 200 OK in 152ms (Views: 148.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:25:04 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.8ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:25:04 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 101ms (Views: 98.2ms | ActiveRecord: 0.0ms)
 
 
@@ -9952,10 +9952,10 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 222ms (Views: 216.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:25:08 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.4ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:25:08 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 106ms (Views: 102.5ms | ActiveRecord: 0.0ms)
 
 
@@ -9994,10 +9994,10 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 81ms (Views: 75.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:29:28 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:29:28 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 108ms (Views: 104.1ms | ActiveRecord: 0.0ms)
 
 
@@ -10015,17 +10015,17 @@ Processing by PagesController#bio as HTML
 Completed 200 OK in 117ms (Views: 113.2ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:32:08 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:32:08 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 120ms (Views: 116.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:36:13 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (1.2ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:36:13 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.2ms)
 Completed 200 OK in 106ms (Views: 101.8ms | ActiveRecord: 0.0ms)
 
 
@@ -10036,10 +10036,10 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 119ms (Views: 115.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/projects" for 127.0.0.1 at 2019-09-12 21:36:20 -0500
-Processing by PagesController#projects as HTML
-  Rendering pages/projects.html.erb within layouts/application
-  Rendered pages/projects.html.erb within layouts/application (0.6ms)
+Started GET "/careers" for 127.0.0.1 at 2019-09-12 21:36:20 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 160ms (Views: 153.2ms | ActiveRecord: 0.0ms)
 
 
@@ -10111,5 +10111,465 @@ Processing by PagesController#home as HTML
   Rendering pages/home.html.erb within layouts/application
   Rendered pages/home.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 176ms (Views: 172.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-13 17:48:39 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 898ms (Views: 839.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bio" for 127.0.0.1 at 2019-09-13 17:48:49 -0500
+Processing by PagesController#bio as HTML
+  Rendering pages/bio.html.erb within layouts/application
+  Rendered pages/bio.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 110ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/careers" for 127.0.0.1 at 2019-09-13 17:48:51 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 134ms (Views: 131.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact-me" for 127.0.0.1 at 2019-09-13 17:48:53 -0500
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 119ms (Views: 90.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/bio" for 127.0.0.1 at 2019-09-13 17:48:56 -0500
+Processing by PagesController#bio as HTML
+  Rendering pages/bio.html.erb within layouts/application
+  Rendered pages/bio.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 85ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-13 17:48:57 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 92ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bio" for 127.0.0.1 at 2019-09-13 17:49:35 -0500
+Processing by PagesController#bio as HTML
+  Rendering pages/bio.html.erb within layouts/application
+  Rendered pages/bio.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 87ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bio" for 127.0.0.1 at 2019-09-13 17:53:10 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/bio"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-09-13 17:53:31 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 264ms (Views: 260.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-13 17:53:34 -0500
+Processing by PagesController#questions as HTML
+  Rendering pages/questions.html.erb within layouts/application
+  Rendered pages/questions.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 136ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-13 17:54:17 -0500
+Processing by PagesController#questions as HTML
+  Rendering pages/questions.html.erb within layouts/application
+  Rendered pages/questions.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 83ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-13 17:54:21 -0500
+Processing by PagesController#questions as HTML
+  Rendering pages/questions.html.erb within layouts/application
+  Rendered pages/questions.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 74ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-13 17:54:29 -0500
+Processing by PagesController#questions as HTML
+  Rendering pages/questions.html.erb within layouts/application
+  Rendered pages/questions.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 61ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2019-09-13 17:57:55 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/projects"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/projects" for 127.0.0.1 at 2019-09-13 17:58:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/projects"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-09-13 17:58:13 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 130ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/careers" for 127.0.0.1 at 2019-09-13 17:58:17 -0500
+Processing by PagesController#careers as HTML
+Completed 406 Not Acceptable in 158ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#careers is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/careers" for 127.0.0.1 at 2019-09-13 17:58:31 -0500
+Processing by PagesController#careers as HTML
+Completed 406 Not Acceptable in 78ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#careers is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-09-13 17:58:56 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 110ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/careers" for 127.0.0.1 at 2019-09-13 18:00:38 -0500
+Processing by PagesController#careers as HTML
+Completed 406 Not Acceptable in 128ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (PagesController#careers is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/careers" for 127.0.0.1 at 2019-09-13 18:02:16 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 65ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-13 18:02:20 -0500
+Processing by PagesController#questions as HTML
+  Rendering pages/questions.html.erb within layouts/application
+  Rendered pages/questions.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 83ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-13 18:02:24 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 141ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact-me" for 127.0.0.1 at 2019-09-13 18:02:27 -0500
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 70ms (Views: 55.8ms | ActiveRecord: 0.6ms)
 
 
