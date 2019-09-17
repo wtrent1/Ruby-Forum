@@ -11493,3 +11493,81 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 120ms (Views: 116.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-09-16 21:52:13 -0500
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 165ms (Views: 159.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-16 21:52:15 -0500
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 60ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/careers" for 127.0.0.1 at 2019-09-16 21:52:16 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 109ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact-us" for 127.0.0.1 at 2019-09-16 21:52:17 -0500
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 139ms (Views: 99.1ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/careers" for 127.0.0.1 at 2019-09-16 21:52:18 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-16 21:52:18 -0500
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (5.8ms)
+Completed 200 OK in 105ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-16 21:52:40 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 674ms (Views: 667.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-16 21:52:41 -0500
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (4.6ms)
+Completed 200 OK in 106ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/careers" for 127.0.0.1 at 2019-09-16 21:52:45 -0500
+Processing by PagesController#careers as HTML
+  Rendering pages/careers.html.erb within layouts/application
+  Rendered pages/careers.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 143ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact-us" for 127.0.0.1 at 2019-09-16 21:52:47 -0500
+Processing by ContactsController#new as HTML
+  Rendering contacts/new.html.erb within layouts/application
+  Rendered contacts/new.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 172ms (Views: 138.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2019-09-16 21:52:48 -0500
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  Rendered posts/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 105ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
