@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 #Use Twitter Bootstrap lib for front end UI and layout
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '>= 3.4.1'
 
 #Use font awesome sass gem for adding icons
 gem 'font-awesome-sass', '5.3.1'
@@ -44,6 +44,15 @@ gem 'hirb', '0.7.3'
 
 #Use Figaro to track env variables
 gem 'figaro'
+
+# haml used for forum
+gem 'haml', '~> 5.0', '>= 5.0.4'
+
+# haml used for forum
+gem 'simple_form', '~> 4.0', '>= 4.0.1'
+
+# haml used for forum
+gem 'devise', '~> 4.4', '>= 4.4.3'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record

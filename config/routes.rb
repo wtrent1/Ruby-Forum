@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
-  get 'questions', to: 'pages#questions'
+  # get 'questions', to: 'pages#questions'
   get 'careers', to: 'pages#careers'
   resources :contacts, only: :create
-  get 'contact-me', to: 'contacts#new', as: 'contact_me'
+  get 'contact-us', to: 'contacts#new', as: 'contact_us'
+  resources :posts
+  get 'questions', to: 'posts#index', as: 'questions'
 end
