@@ -22,14 +22,14 @@ class PostsController < ApplicationController
     end
 
     def edit
+    end
+
+    def update
         if @post.update(post_params)
             redirect_to @post
         else
             render 'edit'
         end
-    end
-
-    def update
     end
 
     def destroy
