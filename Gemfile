@@ -51,7 +51,7 @@ gem 'haml', '~> 5.0', '>= 5.0.4'
 # haml used for forum
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 
-# haml used for forum
+# Devise for user authentication
 gem 'devise', '~> 4.4', '>= 4.4.3'
 
 group :development, :test do
